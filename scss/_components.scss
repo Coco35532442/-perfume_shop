@@ -1,0 +1,39 @@
+.container{
+    max-width: 1140px;    
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn{ 
+    color: $link-color;
+    &:hover{
+        // font-weight: bold;
+        border-bottom: 2px solid $link-color;
+    }
+}
+.btn-white{ 
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    &:hover{
+        // font-weight: bold;
+        background: #FFFFFF4D;
+        border-bottom: 2px solid #FFFFFF;
+    }
+}
+.btn-black{
+    display: block;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    // line-height: 60px;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px;
+    &:hover{
+        // color:#fff ;
+        background: #0000000D;
+        border: 2px solid #000;
+    }
+}

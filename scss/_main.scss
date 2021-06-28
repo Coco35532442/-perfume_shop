@@ -1,0 +1,151 @@
+.menu a{
+    display: block;
+    // color: #8D8D8D;
+    padding: 16px;
+    border-bottom: 2px solid #fff;
+    // font-size: $font-l;
+    // color: $link-color;
+    &:hover{
+        color: $color;
+        border-bottom: 2px solid $color;
+    }
+    // &:active{
+    //     text-decoration: none;
+    // }
+}
+.banner{
+    background-image: url(../images/index1.jpg);
+    background-size: cover;
+    background-position: center center;
+    // background: transparent url(../images/index1.jpg) 0% 0% no-repeat padding-box;
+    height: 870px;
+
+    h1{
+        margin: 0;
+        padding-left: 1070px;
+        padding-top: 295px;
+        // font-family: $font-family-title;
+        // width: 300px;
+    }
+    p{
+        padding-left: 1070px;
+    }
+    .btn{
+        font-size: 30px;
+        width: 350px;
+        height: 60px;
+        line-height: 60px;
+        margin-left: 1070px;
+    }
+}
+.bgImage{
+    background-image: url(../images/index8.jpg);
+    width: 350px;
+    height: 540px;
+    background-size: cover;
+    background-position: center center;
+    p{
+        display: none;
+    }
+}
+.soldOut{
+    background-color: rgba(0, 0, 0, .3);
+    p{
+        display: block;
+        text-align: center;
+        line-height: 540px;
+    }
+}
+.subscribe{
+    background-image: url(../images/index10.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    h2{
+        padding-top: 312px;
+        padding-left: 405px;
+        // padding: 312px 0 0 405px;
+    }
+    .email_input{
+        margin-left: 405px;
+        width: 350px;
+        height: 60px;
+        border: 2px solid $color;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 60px;
+        &:hover{
+            border: 2px solid #6C4700;
+            background: #6C4700;
+        }
+        a{
+            display: block;
+            width: 313px;
+            // color: #fff;
+        }
+    }
+}
+.footer{
+    p{
+        line-height: 21px;
+        padding-left: 20px;
+    }
+    .btn{
+        display: block;
+        // color: #fff;
+        margin-left: 36px;
+        border-bottom: 2px solid $color;
+        &:hover{
+            border-bottom: 2px solid #fff;
+        }
+    }
+}
+@media  (max-width:768px){
+
+    .menu a{
+        position: relative;
+    }
+    .menu em{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        // background: $color;
+        // color: #fff;
+        border-radius: 100%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .banner {
+        padding: 0 15px;
+        h1{
+            padding-left: 0;
+            padding-top: 101px;
+        }
+        p{
+            padding-left: 0;
+        }
+        .btn{
+            margin-left: 0;
+            width: 100%;
+            // max-width: 100%;
+        }
+    }
+    .btn{
+        width: 100%;
+    }
+    .subscribe{
+        h2{
+            padding-left: 15px;
+        }
+        .email_input{
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 100%;
+            // max-width: 100%;
+        }
+    }
+}

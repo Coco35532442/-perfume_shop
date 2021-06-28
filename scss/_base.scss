@@ -1,0 +1,21 @@
+/* rwd img css，可當作是CSS Reset其中一個 */
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* 全域 border box */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: $font-family-base;
+    // font-size 瀏覽器預設大小就為 16px ，所以不需在特別設定。
+    // font-size:$font-m;
+    line-height: 24px;
+}
