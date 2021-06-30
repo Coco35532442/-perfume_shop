@@ -476,6 +476,10 @@ body {
   background: #E0E0E0;
 }
 
+.ml-8 {
+  margin-left: 8px;
+}
+
 .mb-60 {
   margin-bottom: 60px;
 }
