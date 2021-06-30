@@ -359,6 +359,7 @@ ol, ul {
 }
 
 a {
+  color: #000;
   text-decoration: none;
 }
 
@@ -452,6 +453,10 @@ body {
   text-decoration: underline;
 }
 
+.add-cart {
+  color: #fff;
+}
+
 .text-primary {
   color: #916019;
 }
@@ -468,6 +473,10 @@ body {
   color: #000;
 }
 
+.border-primary {
+  border: 1px solid #916000;
+}
+
 .bg-primary {
   background: #916000;
 }
@@ -480,8 +489,20 @@ body {
   margin-left: 8px;
 }
 
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 .mb-60 {
   margin-bottom: 60px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-80 {
@@ -508,6 +529,14 @@ body {
   padding-right: 110px;
 }
 
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
 .pt-40 {
   padding-top: 40px;
 }
@@ -524,13 +553,16 @@ body {
   padding-bottom: 60px;
 }
 
+.w-190 {
+  width: 190px;
+}
+
 .w-255 {
   width: 255px;
 }
 
 .w-350 {
   width: 350px;
-  height: 540px;
 }
 
 .w-555 {
@@ -545,12 +577,20 @@ body {
   height: 255px;
 }
 
+.h-540 {
+  height: 540px;
+}
+
 .h-555 {
   height: 555px;
 }
 
 .h-1080 {
   height: 1080px;
+}
+
+.font-bold {
+  font-weight: bold;
 }
 
 .font-20 {
@@ -571,6 +611,10 @@ body {
 .font-40 {
   font-size: 40px;
   line-height: 60px;
+}
+
+.lh-50 {
+  line-height: 50px;
 }
 
 .lh-60 {
