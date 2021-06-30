@@ -1,3 +1,6 @@
+.text-primary{
+    color: #916019;
+}
 .text-gray{
     color: #8D8D8D;
 }
@@ -12,6 +15,18 @@
 }
 .bg-gray{
     background: #E0E0E0;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.p-10{
+    padding: 10px;
+}
+.pr-11{
+    padding-right: 11px;
 }
 .pl-30{
     padding-left: 30px;
@@ -34,6 +49,9 @@
 .pb-60{
     padding-bottom: 60px;
 }
+.w-255{
+    width: 255px;
+}
 .w-350{
     width: 350px;
     height: 540px;
@@ -43,6 +61,9 @@
 }
 .w-730{
     width: 730px;
+}
+.h-255{
+    height: 255px;
 }
 .h-555{
     height: 555px;
@@ -69,8 +90,28 @@
 .lh-60{
     line-height: 60px;
 }
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.top-0{
+    top: 0;
+}
+.end-0{
+    right: 0;
+}
+.rounded-circle {
+    // border-radius: 50%;
+    border-radius: 100%;
+    // border-radius 100% 和 50% 是等效的
+}
 .d-flex{
     display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .row-reverse{
     flex-direction: row-reverse;
@@ -95,6 +136,12 @@
         max-width: 100%;
         height: auto;
     }
+    .sm-mt-50{
+        margin-top: 50px;
+    }
+    .sm-mb-40{
+        margin-bottom: 40px;
+    }
     .sm-pl-0{
         padding-left: 0px;
     }
@@ -109,6 +156,9 @@
     }
     .sm-pt-40{
         padding-top: 40px;
+    }
+    .sm-pb-30{
+        padding-bottom: 30px;
     }
     .sm-pb-32{
         padding-bottom: 32px;

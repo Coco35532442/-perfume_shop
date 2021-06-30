@@ -3,6 +3,35 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.nav-link{
+    display: block;
+    // color: #8D8D8D;
+    padding: 16px;
+    border-bottom: 2px solid #fff;
+    // font-size: $font-l;
+    // color: $link-color;
+    &:hover{
+        color: $color;
+        border-bottom: 2px solid $color;
+    }
+}
+.nav-brand{
+    color: #fff;
+    display: block;
+    padding: 14px;
+    &:hover{
+        background: lighten($color,3%);
+    }
+}
+.badge {
+    display: block;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
 .btn{ 
     color: $link-color;
     &:hover{
@@ -35,5 +64,12 @@
         // color:#fff ;
         background: #0000000D;
         border: 2px solid #000;
+    }
+}
+.page{
+    color: #000;
+    &:hover{
+        color: #AC8A46;
+        text-decoration: underline;
     }
 }

@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="./scss/all.css">
 </head>
 <body>
+    <!-- 導覽列，layout -->
     <div class="container d-flex space-between align-center">
         <div class="logo">
-            <a href="#"><img src="./images/d’Perfume.png" alt="logo"></a>
+            <a href="index.html"><img src="./images/d’Perfume.png" alt="logo"></a>
         </div>
         <ul class="menu d-flex font-20">
-            <li class="d-none"><a href="#" class="text-gray"><i class="fas fa-store-alt"></i>Product</a></li>
-            <li class="d-none"><a href="#" class="text-gray"><i class="fas fa-user-alt"></i>log in</a></li>
-            <li class="d-none"><a href="#" class="text-gray"><i class="far fa-heart"></i>Wishlist</a></li>
-            <li><a href="#"  class="text-gray"><i class="fas fa-shopping-cart"></i><span class="d-none">Cart(3)</span><em class="d-md-none text-white bg-primary">3</em>
-            </a></li>
-            <li class="d-md-none"><a href="#" class="text-gray"><i class="fas fa-bars"></i></a></li>
+            <li class="d-none"><a href="products.html" class="nav-link text-gray "><i class="fas fa-store-alt"></i>Product</a></li>
+            <li class="d-none"><a href="#" class="nav-link text-gray"><i class="fas fa-user-alt"></i>log in</a></li>
+            <li class="d-none"><a href="#" class="nav-link text-gray"><i class="far fa-heart"></i>Wishlist</a></li>
+            <li>
+                <a href="#"  class="nav-link text-gray position-relative">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="d-none">Cart(3)</span>
+                    <em class="d-md-none  position-absolute top-0 end-0 badge rounded-circle bg-primary">3</em>
+                </a>
+            </li>
+            <li class="d-md-none"><a href="#" class="nav-link text-gray "><i class="fas fa-bars"></i></a></li>
         </ul>
     </div>
+    <!-- 內容 -->
     <div class="banner text-white">
         <h1 class="font-40">Perfume your day</h1>
         <p class="font-24">A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.</p>
@@ -111,6 +118,9 @@
 
         </div>
     </div>
+    <!-- end 內容 -->
+
+    <!-- 訂閱，layout -->
     <div class="subscribe">
         <h2 class="font-32 text-gray">記得<br>訂閱以獲取更多資訊！</h2>
         <div class="email_input d-flex bg-primary">
@@ -120,6 +130,7 @@
 
         
     </div>
+    <!-- footer，layout -->
     <div class="footer text-white bg-primary">
         <div class="container d-flex space-between">
             <div class="d-flex align-center sm-space-between sm-w-auto">
