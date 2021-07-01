@@ -408,17 +408,37 @@ body {
   line-height: 20px;
 }
 
-.btn {
+.link {
   color: #AC8A46;
 }
 
-.btn:hover {
+.link:hover {
+  font-weight: bold;
   border-bottom: 2px solid #AC8A46;
 }
 
-.btn-white {
+.footer-link {
+  display: block;
+  margin-left: 36px;
+  border-bottom: 2px solid #916000;
+}
+
+.footer-link:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.btn {
   display: block;
   text-align: center;
+  border: 2px solid #916000;
+}
+
+.btn:hover {
+  background: #6C4700;
+  border: 2px solid #6C4700;
+}
+
+.btn-white {
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 30px;
@@ -426,12 +446,10 @@ body {
 
 .btn-white:hover {
   background: #FFFFFF4D;
-  border-bottom: 2px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
 }
 
 .btn-black {
-  display: block;
-  text-align: center;
   width: 350px;
   height: 60px;
   color: #000;
@@ -444,6 +462,26 @@ body {
   border: 2px solid #000;
 }
 
+.email_input {
+  margin-left: 405px;
+  width: 350px;
+  height: 60px;
+  border: 2px solid #916000;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.email_input:hover {
+  border: 2px solid #6C4700;
+  background: #6C4700;
+}
+
+.email_input a {
+  display: block;
+  width: 313px;
+}
+
 .page {
   color: #000;
 }
@@ -451,10 +489,6 @@ body {
 .page:hover {
   color: #AC8A46;
   text-decoration: underline;
-}
-
-.add-cart {
-  color: #fff;
 }
 
 .text-primary {
@@ -477,6 +511,14 @@ body {
   border: 1px solid #916000;
 }
 
+.border-radius-left {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.border-radius-right {
+  border-radius: 0px 4px 4px 0px;
+}
+
 .bg-primary {
   background: #916000;
 }
@@ -493,6 +535,14 @@ body {
   margin-left: 30px;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
 .mb-32 {
   margin-bottom: 32px;
 }
@@ -501,8 +551,16 @@ body {
   margin-bottom: 60px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mt-80 {
@@ -551,6 +609,10 @@ body {
 
 .pb-60 {
   padding-bottom: 60px;
+}
+
+.w-160 {
+  width: 160px;
 }
 
 .w-190 {
@@ -690,6 +752,9 @@ body {
     max-width: 100%;
     height: auto;
   }
+  .sm-mt-40 {
+    margin-top: 40px;
+  }
   .sm-mt-50 {
     margin-top: 50px;
   }
@@ -809,39 +874,9 @@ body {
   padding-left: 405px;
 }
 
-.subscribe .email_input {
-  margin-left: 405px;
-  width: 350px;
-  height: 60px;
-  border: 2px solid #916000;
-  border-radius: 4px;
-  text-align: center;
-  line-height: 60px;
-}
-
-.subscribe .email_input:hover {
-  border: 2px solid #6C4700;
-  background: #6C4700;
-}
-
-.subscribe .email_input a {
-  display: block;
-  width: 313px;
-}
-
 .footer p {
   line-height: 21px;
   padding-left: 20px;
-}
-
-.footer .btn {
-  display: block;
-  margin-left: 36px;
-  border-bottom: 2px solid #916000;
-}
-
-.footer .btn:hover {
-  border-bottom: 2px solid #fff;
 }
 
 @media (max-width: 768px) {

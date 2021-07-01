@@ -32,28 +32,44 @@
     text-align: center;
     line-height: 20px;
 }
-.btn{ 
+.link{
     color: $link-color;
     &:hover{
-        // font-weight: bold;
+        font-weight: bold;
         border-bottom: 2px solid $link-color;
     }
 }
-.btn-white{ 
+.footer-link{
+    display: block;
+    // color: #fff;
+    margin-left: 36px;
+    border-bottom: 2px solid $color;
+    &:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+}
+.btn{ 
     display: block;
     text-align: center;
+    border: 2px solid $color;
+
+    &:hover{
+        background: #6C4700;
+        border: 2px solid #6C4700;
+    }
+}
+.btn-white{ 
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 30px;
     &:hover{
         // font-weight: bold;
         background: #FFFFFF4D;
-        border-bottom: 2px solid #FFFFFF;
+        border: 2px solid #FFFFFF;
     }
 }
 .btn-black{
-    display: block;
-    text-align: center;
     width: 350px;
     height: 60px;
     // line-height: 60px;
@@ -66,14 +82,28 @@
         border: 2px solid #000;
     }
 }
+.email_input{
+    margin-left: 405px;
+    width: 350px;
+    height: 60px;
+    border: 2px solid $color;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 60px;
+    &:hover{
+        border: 2px solid #6C4700;
+        background: #6C4700;
+    }
+    a{
+        display: block;
+        width: 313px;
+        // color: #fff;
+    }
+}
 .page{
     color: #000;
     &:hover{
         color: #AC8A46;
         text-decoration: underline;
     }
-}
-.add-cart{
-    // text-align: center;
-    color: #fff;
 }

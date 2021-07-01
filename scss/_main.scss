@@ -50,39 +50,12 @@
         padding-top: 312px;
         padding-left: 405px;
         // padding: 312px 0 0 405px;
-    }
-    .email_input{
-        margin-left: 405px;
-        width: 350px;
-        height: 60px;
-        border: 2px solid $color;
-        border-radius: 4px;
-        text-align: center;
-        line-height: 60px;
-        &:hover{
-            border: 2px solid #6C4700;
-            background: #6C4700;
-        }
-        a{
-            display: block;
-            width: 313px;
-            // color: #fff;
-        }
-    }
+    }    
 }
 .footer{
     p{
         line-height: 21px;
         padding-left: 20px;
-    }
-    .btn{
-        display: block;
-        // color: #fff;
-        margin-left: 36px;
-        border-bottom: 2px solid $color;
-        &:hover{
-            border-bottom: 2px solid #fff;
-        }
     }
 }
 @media  (max-width:768px){
